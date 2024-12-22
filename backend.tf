@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "terraform-march-sophie1"
+    bucket         = "hellosophie"
     region         = "eu-west-2"
     key            = "Github-Runner-TF/terraform.tfstate"
     encrypt        = true
